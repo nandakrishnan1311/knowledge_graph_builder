@@ -4,7 +4,7 @@ import numpy as np
 from scipy.spatial.distance import cosine
 
 # ==== Gemini API Key ====
-GEMINI_API_KEY = "AIzaSyBChB9OvBIcW9nL4-w24Gzkiz0GxDwBsTk"
+GEMINI_API_KEY = "your_GEMINI_API_KEY"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # ==== Neo4j Config ====
